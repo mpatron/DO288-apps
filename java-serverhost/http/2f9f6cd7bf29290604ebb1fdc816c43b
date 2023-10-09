@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 989
+Audit-Id: 6de8f2b3-c32a-4507-9053-b7bf2e6213f6
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 09 Oct 2023 13:05:27 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 3a76b6f9-6535-4363-a6ec-1567614af8ed
+X-Kubernetes-Pf-Prioritylevel-Uid: 806b5eb5-131b-481c-9a10-3e4aa243f8ca
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"network.openshift.io/v1","resources":[{"name":"hostsubnets","singularName":"hostsubnet","namespaced":false,"kind":"HostSubnet","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"bNBR0awPHLM="},{"name":"egressnetworkpolicies","singularName":"egressnetworkpolicy","namespaced":true,"kind":"EgressNetworkPolicy","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"HMi9agCKOMY="},{"name":"netnamespaces","singularName":"netnamespace","namespaced":false,"kind":"NetNamespace","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"wF0kNnaqHak="},{"name":"clusternetworks","singularName":"clusternetwork","namespaced":false,"kind":"ClusterNetwork","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"auQsassZNlY="}]}

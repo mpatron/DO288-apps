@@ -1,0 +1,12 @@
+HTTP/2.0 200 OK
+Content-Length: 418
+Audit-Id: 9522bf7a-153f-47f1-a437-28e9e2676d3b
+Audit-Id: 9522bf7a-153f-47f1-a437-28e9e2676d3b
+Cache-Control: no-cache, private
+Cache-Control: no-store
+Content-Type: application/json
+Date: Mon, 09 Oct 2023 13:05:27 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 3a76b6f9-6535-4363-a6ec-1567614af8ed
+X-Kubernetes-Pf-Prioritylevel-Uid: 806b5eb5-131b-481c-9a10-3e4aa243f8ca
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"route.openshift.io/v1","resources":[{"name":"routes","singularName":"","namespaced":true,"kind":"Route","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"categories":["all"],"storageVersionHash":"jo1F7GfnXH4="},{"name":"routes/status","singularName":"","namespaced":true,"kind":"Route","verbs":["get","patch","update"]}]}

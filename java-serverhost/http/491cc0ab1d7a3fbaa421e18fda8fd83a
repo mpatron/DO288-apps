@@ -1,0 +1,12 @@
+HTTP/2.0 200 OK
+Content-Length: 589
+Audit-Id: 54848b25-0e34-4c60-a0bf-65fa6ca4a687
+Audit-Id: 54848b25-0e34-4c60-a0bf-65fa6ca4a687
+Cache-Control: no-cache, private
+Cache-Control: no-store
+Content-Type: application/json
+Date: Mon, 09 Oct 2023 13:05:27 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 3a76b6f9-6535-4363-a6ec-1567614af8ed
+X-Kubernetes-Pf-Prioritylevel-Uid: 806b5eb5-131b-481c-9a10-3e4aa243f8ca
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"quota.openshift.io/v1","resources":[{"name":"appliedclusterresourcequotas","singularName":"","namespaced":true,"kind":"AppliedClusterResourceQuota","verbs":["get","list"]},{"name":"clusterresourcequotas","singularName":"","namespaced":false,"kind":"ClusterResourceQuota","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["clusterquota"]},{"name":"clusterresourcequotas/status","singularName":"","namespaced":false,"kind":"ClusterResourceQuota","verbs":["get","patch","update"]}]}

@@ -1,0 +1,12 @@
+HTTP/2.0 200 OK
+Content-Length: 354
+Audit-Id: fa80c4c8-a162-4b8c-8c6b-f2cf7b59648f
+Audit-Id: fa80c4c8-a162-4b8c-8c6b-f2cf7b59648f
+Cache-Control: no-cache, private
+Cache-Control: no-store
+Content-Type: application/json
+Date: Mon, 09 Oct 2023 13:05:27 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 3a76b6f9-6535-4363-a6ec-1567614af8ed
+X-Kubernetes-Pf-Prioritylevel-Uid: 806b5eb5-131b-481c-9a10-3e4aa243f8ca
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"project.openshift.io/v1","resources":[{"name":"projectrequests","singularName":"","namespaced":false,"kind":"ProjectRequest","verbs":["create","list"]},{"name":"projects","singularName":"","namespaced":false,"kind":"Project","verbs":["create","delete","get","list","patch","update","watch"]}]}

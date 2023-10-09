@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 493
+Audit-Id: 20ed6f4d-9525-4724-9929-15c1e96e3540
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 09 Oct 2023 13:05:27 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 3a76b6f9-6535-4363-a6ec-1567614af8ed
+X-Kubernetes-Pf-Prioritylevel-Uid: 806b5eb5-131b-481c-9a10-3e4aa243f8ca
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"autoscaling.openshift.io/v1beta1","resources":[{"name":"machineautoscalers","singularName":"machineautoscaler","namespaced":true,"kind":"MachineAutoscaler","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["ma"],"storageVersionHash":"ZDYdQVLj5g4="},{"name":"machineautoscalers/status","singularName":"","namespaced":true,"kind":"MachineAutoscaler","verbs":["get","patch","update"]}]}

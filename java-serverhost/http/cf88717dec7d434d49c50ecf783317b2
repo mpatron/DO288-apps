@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 891
+Audit-Id: 0d70ea2b-f546-459f-b64f-4e1a3010946e
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 09 Oct 2023 13:05:27 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 3a76b6f9-6535-4363-a6ec-1567614af8ed
+X-Kubernetes-Pf-Prioritylevel-Uid: 806b5eb5-131b-481c-9a10-3e4aa243f8ca
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"helm.openshift.io/v1beta1","resources":[{"name":"helmchartrepositories","singularName":"helmchartrepository","namespaced":false,"kind":"HelmChartRepository","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"ufyXG8CiCus="},{"name":"helmchartrepositories/status","singularName":"","namespaced":false,"kind":"HelmChartRepository","verbs":["get","patch","update"]},{"name":"projecthelmchartrepositories","singularName":"projecthelmchartrepository","namespaced":true,"kind":"ProjectHelmChartRepository","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"u99qLV2ifAE="},{"name":"projecthelmchartrepositories/status","singularName":"","namespaced":true,"kind":"ProjectHelmChartRepository","verbs":["get","patch","update"]}]}

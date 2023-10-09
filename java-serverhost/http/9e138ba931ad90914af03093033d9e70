@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 534
+Audit-Id: ad70837c-4cc2-4672-a057-5ad6c04292b6
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 09 Oct 2023 13:05:27 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 3a76b6f9-6535-4363-a6ec-1567614af8ed
+X-Kubernetes-Pf-Prioritylevel-Uid: 806b5eb5-131b-481c-9a10-3e4aa243f8ca
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"controlplane.operator.openshift.io/v1alpha1","resources":[{"name":"podnetworkconnectivitychecks","singularName":"podnetworkconnectivitycheck","namespaced":true,"kind":"PodNetworkConnectivityCheck","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"OAM77/d6N/I="},{"name":"podnetworkconnectivitychecks/status","singularName":"","namespaced":true,"kind":"PodNetworkConnectivityCheck","verbs":["get","patch","update"]}]}

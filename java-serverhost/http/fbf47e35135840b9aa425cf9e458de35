@@ -1,0 +1,12 @@
+HTTP/2.0 200 OK
+Content-Length: 937
+Audit-Id: 944cf0dd-1a53-4903-9a6f-5fdb9494eb20
+Audit-Id: 944cf0dd-1a53-4903-9a6f-5fdb9494eb20
+Cache-Control: no-cache, private
+Cache-Control: no-store
+Content-Type: application/json
+Date: Mon, 09 Oct 2023 13:05:27 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 3a76b6f9-6535-4363-a6ec-1567614af8ed
+X-Kubernetes-Pf-Prioritylevel-Uid: 806b5eb5-131b-481c-9a10-3e4aa243f8ca
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"security.openshift.io/v1","resources":[{"name":"podsecuritypolicyreviews","singularName":"","namespaced":true,"kind":"PodSecurityPolicyReview","verbs":["create"]},{"name":"podsecuritypolicyselfsubjectreviews","singularName":"","namespaced":true,"kind":"PodSecurityPolicySelfSubjectReview","verbs":["create"]},{"name":"podsecuritypolicysubjectreviews","singularName":"","namespaced":true,"kind":"PodSecurityPolicySubjectReview","verbs":["create"]},{"name":"rangeallocations","singularName":"","namespaced":false,"kind":"RangeAllocation","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"storageVersionHash":"8/BJx/M8Ga0="},{"name":"securitycontextconstraints","singularName":"","namespaced":false,"kind":"SecurityContextConstraints","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["scc"]}]}
